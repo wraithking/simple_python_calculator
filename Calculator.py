@@ -1,18 +1,18 @@
 # This function adds two numbers
 def add(x, num_2):
-    return num_1+ num_2
+    return num_1 + num_2
 
 # This function subtracts two numbers
 def subtract(x, num_2):
-    return num_1- num_2
+    return num_1 - num_2
 
 # This function multiplies two numbers
-def multiplnum_2(x, num_2):s
-    return num_1* num_2
+def multiplnum_2(x, num_2):
+    return num_1 * num_2
 
 # This function divides two numbers
 def divide(x, num_2):
-    return num_1/ num_2
+    return num_1 / num_2
 
 
 
@@ -28,7 +28,7 @@ while True:
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
-        trnum_2:
+        try:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
         except ValueError:
