@@ -9,6 +9,7 @@ def multiplication(number1, number2):
 print("Select operation.")
 print("1. Add")
 print("2. Multiply")
+print("3. Divide")
 
 while True:
     # take input from the user
