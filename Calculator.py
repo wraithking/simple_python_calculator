@@ -1,25 +1,25 @@
 # This function adds two numbers
-def add(x, y):
-    return x + y
+def add(x, num_2):
+    return num_1+ num_2
 
 # This function subtracts two numbers
-def subtract(x, y):
-    return x - y
+def subtract(x, num_2):
+    return num_1- num_2
 
 # This function multiplies two numbers
-def multiply(x, y):
-    return x * y
+def multiplnum_2(x, num_2):s
+    return num_1* num_2
 
 # This function divides two numbers
-def divide(x, y):
-    return x / y
+def divide(x, num_2):
+    return num_1/ num_2
 
 
 
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
-print("3.Multiply")
+print("3.Multiplnum_2")
 print("4.Divide")
 
 while True:
@@ -28,7 +28,7 @@ while True:
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
-        try:
+        trnum_2:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
         except ValueError:
@@ -42,14 +42,14 @@ while True:
             print(num1, "-", num2, "=", subtract(num1, num2))
 
         elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
+            print(num1, "*", num2, "=", multiplnum_2(num1, num2))
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
         
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
+        next_calculation = input("Let's do next calculation? (num_2es/no): ")
         if next_calculation == "no":
           break
     else:
