@@ -1,17 +1,17 @@
 # This function adds two numbers
-def add(x, num_2):
+def add(num_1, num_2):
     return num_1 + num_2
 
 # This function subtracts two numbers
-def subtract(x, num_2):
+def subtract(num_1, num_2):
     return num_1 - num_2
 
 # This function multiplies two numbers
-def multiplnum_2(x, num_2):
+def multiply(num_1, num_2):
     return num_1 * num_2
 
 # This function divides two numbers
-def divide(x, num_2):
+def divide(num_1, num_2):
     return num_1 / num_2
 
 
@@ -42,7 +42,7 @@ while True:
             print(num1, "-", num2, "=", subtract(num1, num2))
 
         elif choice == '3':
-            print(num1, "*", num2, "=", multiplnum_2(num1, num2))
+            print(num1, "*", num2, "=", multiply(num1, num2))
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
