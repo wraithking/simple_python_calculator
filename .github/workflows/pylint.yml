@@ -20,4 +20,7 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files 'calculator.py')
+        pylint $(git 'calculator.py')
+    - name: Run unit test
+      run: |
+        python $(git 'est_calculator.py')
