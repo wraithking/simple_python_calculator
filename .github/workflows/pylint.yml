@@ -1,6 +1,7 @@
 name: Unit test and Pylint
 
-on: [push]
+on:
+  workflow_dispatch: 
 
 jobs:
   unit-tests:
