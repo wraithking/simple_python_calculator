@@ -27,7 +27,9 @@ def divide(x, y):
     Sum function
     """
     return x / y
+VARIABLE_1 = 10
 
+VARIABLE_2 = 100000000
 
 print(VARIABLE_1, "+", VARIABLE_2, "=", add(VARIABLE_1, VARIABLE_2))
 print(VARIABLE_1, "-", VARIABLE_2, "=", subtract(VARIABLE_1, VARIABLE_2))
