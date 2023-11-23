@@ -1,35 +1,35 @@
 # This function adds two numbers
-'''
-Sum function
-'''
-
 def add(x, y):
+    """
+    Sum function
+    """
     return x + y
 
-'''
-substraction
-'''
+commit -
 # This function subtracts two numbers
 def subtract(x, y):
+    """
+    Sum function
+    """
     return x - y
 
 # This function multiplies two numbers
-'''
-multiply function
-'''
+
 def multiply(x, y):
+    """
+    Sum function
+    """
     return x * y
 
 # This function divides two numbers
 def divide(x, y):
+    """
+    Sum function
+    """
     return x / y
 
 
-# Example usage of the calculator functions without user input
-num1 = 10
-num2 = 5
-
-print(num1, "+", num2, "=", add(num1, num2))
-print(num1, "-", num2, "=", subtract(num1, num2))
-print(num1, "*", num2, "=", multiply(num1, num2))
-print(num1, "/", num2, "=", divide(num1, num2))
+print(VARIABLE_1, "+", VARIABLE_2, "=", add(VARIABLE_1, VARIABLE_2))
+print(VARIABLE_1, "-", VARIABLE_2, "=", subtract(VARIABLE_1, VARIABLE_2))
+print(VARIABLE_1, "*", VARIABLE_2, "=", multiply(VARIABLE_1, VARIABLE_2))
+print(VARIABLE_1, "/", VARIABLE_2, "=", divide(VARIABLE_1, VARIABLE_2))
