@@ -1,12 +1,22 @@
 # This function adds two numbers
+'''
+Sum function
+'''
+
 def add(x, y):
     return x + y
 
+'''
+substraction
+'''
 # This function subtracts two numbers
 def subtract(x, y):
     return x - y
 
 # This function multiplies two numbers
+'''
+multiply function
+'''
 def multiply(x, y):
     return x * y
 
