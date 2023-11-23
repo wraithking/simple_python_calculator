@@ -1,1 +1,4 @@
-bla bla bla
+name: SSL testing for client connection
+
+on:
+  workflow_dispatch: 
