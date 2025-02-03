@@ -2,7 +2,7 @@ import unittest
 from Calculator import add, subtract, multiply, divide
 
 class TestCalculator(unittest.TestCase):
-
+# Sumesanas funckija
     def test_add(self):
         self.assertEqual(subtract(2, 3), -1)
         self.assertEqual(subtract(-2, 3), -5)
